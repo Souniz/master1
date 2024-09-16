@@ -44,7 +44,7 @@ def steepest_descent(x0,cost,gradient,step,epsilon=1e-6,max_iter=1e5):
     return xlist,flist,nlist
 
 
-Lambda = np.array((2,1))
+Lambda = np.array((5,1))
 np.random.seed(seed=1)
 P,q,r= quadratic_problem2d(Lambda)
 # check solution existency 
