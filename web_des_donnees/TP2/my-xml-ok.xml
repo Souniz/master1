@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE my-markup SYSTEM "./my-dtd.dtd">
+<my-markup>
+  <my-item id="num1"></my-item>
+  <my-item id="num2"></my-item>
+  <my-item id="num3" ></my-item>
+</my-markup>

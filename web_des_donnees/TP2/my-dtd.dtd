@@ -1,0 +1,3 @@
+<!ELEMENT my-markup (my-item+)>
+<!ELEMENT my-item EMPTY>
+<!ATTLIST my-item id ID #REQUIRED>
