@@ -59,7 +59,7 @@ def my_GMM_generate(P,Mean,Cov,N,Visualisation=False):
         plt.figure(figsize=(8,8))
         debut=0
         for k in range(K):
-            fin=debut-effectifs[k]
+            fin=debut+effectifs[k]
             plt.plot(X[debut:fin,0],X[debut:fin,1],colors[k]+'o',markersize=4,markeredgewidth=3)
             plt.plot(Mean[k,0],Mean[k,1],'kx',markersize=10,markeredgewidth=3)
             debut=fin
@@ -223,7 +223,7 @@ if __name__ == '__main__':
 
     X,y = my_GMM_generate(PROB,MEAN,COV,N,Visualisation=True)
 
-    P, Mean, Cov, LOGVRAIS = my_GMM_fit(X,K)
+    P, Mean, Cov, LOGVRAIS = my_GMM_fit(X,K,Visualisation=True)
 
     y, LV = my_GMM_predict(X,K,P,Mean,Cov)
     

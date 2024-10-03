@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personne xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="repertoire.xsd">
+    <prenom>Souna</prenom>
+    <nom>Niang</nom>
+    <email>soun2@gmail.com</email>
+    <telephone pays="SN">+33753469818</telephone>
+    <pays>France</pays>
+    <adresse>30 rue julian </adresse>
+    <adresse_ligne_2>BatC</adresse_ligne_2>
+    <code_postal>76800</code_postal>
+    <ville>Saint</ville>
+    <anniversaire>01/01/2000</anniversaire>
+</personne>

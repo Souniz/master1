@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<heros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="heros.xsd">
+	<powers>
+		<power id="aucun">aucun pouvoir</power>
+		<power id="colle">Pouvoir de d’adhérence aux murs, plafonds et autres objets similaire à celui des araignées.</power>
+		<power id="voler">Pouvoir de voler dans les airs.</power>
+		<power id="force">Force physique surhumaine.</power>
+		<power id="precognition">Pouvoir de perception extrasensorielle permettant la prévision d'événements futurs non déductibles de la connaissance du présent.</power>
+	</powers>
+	<hero id="h-001" birth-year="1962">
+		<identity height="2.78" genre="M">
+			<firstname>Peter</firstname>
+			<firstname>Benjamin</firstname>
+			<lastname>PARKER</lastname>
+			<aliases>
+				<alias>Spider Man</alias>
+				<alias>L'homme araignée</alias>
+				<alias>Spidey</alias>
+			</aliases>
+		</identity>
+		<species>Mutant</species>
+		<abilities>colle force precognition</abilities>
+		<movies>iron_man_2[2010] venom[2021] spider_man[2021]</movies>
+	</hero>
+	<hero id="h-002" birth-year="1915">
+		<identity>
+			<firstname>Bruce</firstname>
+			<lastname>WAYNE</lastname>
+			<aliases>
+				<alias>Batman</alias>
+				<alias>Dark Knight</alias>
+			</aliases>
+		</identity>
+		<species>Humain</species>
+		<abilities>aucun</abilities>
+		<movies>the_batman[2022] batman_vs_superman[2016]</movies>
+	</hero>
+	<hero id="h-003" birth-year="1932">
+		<identity height="1.90">
+			<firstname>Clark</firstname>
+			<firstname>Joseph</firstname>
+			<lastname>Kent</lastname>
+			<alias>Superman</alias>
+		</identity>
+		<species>Kryptonien</species>
+		<abilities>vitesse voler force</abilities>
+		<movies>man_of_steel[2013] justice_league[2017] batman_vs_superman[2016]</movies>
+	</hero>
+</heros>

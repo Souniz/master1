@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<climat>
+    <mois>
+        <janv precipitation="125" pourcentage="+64%">
+            <temperatures>
+                <maximum>13</maximum>
+                <minimum>-5</minimum>
+            </temperatures>
+            <episodes-neigeux>
+               <jours>
+                <jour value="4" >
+                    <heure>9h00</heure>
+                </jour>
+                <jour value="16" >
+                    <heure>7h00</heure>
+                    <heure>9h00</heure>
+                </jour>
+                <jour value="23" >
+                    <heure>9h00</heure>
+                    <heure>10h00</heure>
+                </jour>
+                <jour value="24" >
+                    <heure>10h00</heure>
+                    <heure>11h00</heure>
+                </jour>
+               </jours>
+            </episodes-neigeux>
+        </janv>
+        <fev precipitation="49" pourcentage="-19%">
+            <temperatures>
+                <maximum>19</maximum>
+                <minimum>-7</minimum>
+            </temperatures>
+            <episodes-neigeux>
+                <jour value="07" >
+                    <heure>10h00</heure>
+                </jour>
+            </episodes-neigeux>
+        </fev>
+        <mars precipitation="36.4" pourcentage="+46">
+            <temperatures>
+                <maximum>24</maximum>
+                <minimum>-4</minimum>
+            </temperatures>
+        </mars>
+        <nov precipitation="54.9" pourcentage="-29%">
+            <temperatures>
+                <maximum>14</maximum>
+                <minimum>-2</minimum>
+            </temperatures>
+            <episodes-neigeux>
+               <jours>
+                <jour value="27" >
+                    <heure>04h00</heure>
+                    <heure>6h00</heure>
+                </jour>
+               </jours>
+            </episodes-neigeux>
+        </nov>
+    </mois>
+</climat>

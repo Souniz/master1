@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="personne">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="prenom" type="xsd:string" minOccurs="1" maxOccurs="2" />
+                <xsd:element name="nom" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+                <xsd:element name="email">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="[a-zA-Z0-9]+@[a-z]+.[a-z]+"/>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="telephone">
+                    <xsd:complexType>
+                        <xsd:simpleContent>
+                            <xsd:extension base="xsd:string">
+                                <xsd:attribute name="pays" type="xsd:string"/>
+                            </xsd:extension>
+                        </xsd:simpleContent>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="telephone">
+                    <xsd:complexType>
+                          <xsd:simpleContent>
+                            <xsd:restriction base="">
+                                <xsd:simpleType>
+                                   
+                                </xsd:simpleType>
+                            </xsd:restriction>
+                          </xsd:simpleContent>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

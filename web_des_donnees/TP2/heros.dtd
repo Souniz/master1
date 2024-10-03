@@ -1,0 +1,16 @@
+<!ELEMENT heros (powers,heros+)>
+<!ELEMENT powers (power+)>
+<!ELEMENT power (#PCDATA)>
+<!ELEMENT hero (identity,species,abilities,movies)>
+<!ELEMENT identity (Firsname+,lastname,alias)>
+<!ELEMENT Firstname (#PCDATA)>
+<!ELEMENT Lasstname (#PCDATA)>
+<!ELEMENT alias (#PCDATA)>
+<!ELEMENT species (#PCDATA)>
+<!ELEMENT abilities (#PCDATA)>
+<!ELEMENT movies (#PCDATA)>
+<!ATTLIST power id ID #REQUIRED>
+<!ATTLIST hero id ID #REQUIRED>
+<!ATTLIST hero birth-year ID #REQUIRED>
+<!ATTLIST identity height CDATA #IMPLIED>
+<!ATTLIST identity genre (M|F) #IMPLIED>
