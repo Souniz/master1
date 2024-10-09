@@ -1,0 +1,3 @@
+1)descendant::*/nation[child::programme]/attribute::nom
+2)descendant::*/astronaute[./@role='commandant']/child::text()
+3)descendant::*/mission[not(@type='habité')]/@date

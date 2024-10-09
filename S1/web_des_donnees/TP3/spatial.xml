@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<programmes xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nation nom="USA">
+	<programme nom="Mercury" debut="1958" fin="1963" missions="6">
+	  <objectif>Découvrir le vol spatial autour de la Terre</objectif>
+	  <mission nom="Mercury 3" type="habité" date="1961-05-05">
+		<but>Premier vol spatial américain</but>
+		<astronaute>Alan Shepard</astronaute>
+	  </mission>
+	  <mission nom="Mercury 4" type="habité" date="1961-06-21">
+		<but>Test sub-orbital</but>
+		<evenement>Submersion de la capsule à l'amerrissage</evenement>
+		<astronaute role="commandant">Virgil Grissom</astronaute>
+	  </mission>
+	  <mission nom="Mercury 6" type="habité" date="1962-02-20">
+		<but>Premier vol orbital</but>
+		<evenement>Rupture de la fixation du bouclier thermique, sans conséquence</evenement>
+		<astronaute role="commandant">John Glenn</astronaute>
+	  </mission>
+	  <mission nom="Mercury 7" type="habité" date="1962-05-24">
+		<but>Expériences sur l'impesanteur</but>
+		<evenement>Erreur de pilotage</evenement>
+		<astronaute role="commandant">Scott Carpenter</astronaute>
+	  </mission>
+	  <mission nom="Mercury 8" type="habité" date="1962-10-03">
+		<astronaute>Walter Schirra</astronaute>
+	  </mission>
+	  <mission nom="Mercury 9" type="habité" date="1963-05-15">
+		<but>Vol de longue durée</but>
+		<evenement>Panne électrique</evenement>
+		<astronaute role="commandant">Gordon Cooper</astronaute>
+	  </mission>
+	</programme>
+	<programme nom="Gemini" debut="1963" fin="1966" missions="12">
+	  <objectif>Maîtriser le vol spatial en orbite autour de la Terre et mettre au point les manœuvres de rendez-vous</objectif>
+	  <mission nom="Gemini 1" date="1964-04-08" fin="1964-04-12">
+		<but>Tester l'intégrité de la capsule</but>
+	  </mission>
+	  <mission nom="Gemini 2" date="1965-01-19">
+		<but>Test sub-orbital</but>
+	  </mission>
+	  <mission nom="Gemini 3" type="habité" date="1965-03-23">
+		<but>Test en équipage</but>
+		<astronaute role="commandant">Virgil Grissom</astronaute>
+		<astronaute>John Young</astronaute>
+	  </mission>
+	  <mission nom="Gemini 4" type="habité" date="1965-06-03" fin="1965-06-07">
+		<but>Sortie dans l'espace</but>
+		<evenement>Blocage du loquet de l'écoutille</evenement>
+		<astronaute role="commandant">James McDivitt</astronaute>
+		<astronaute>Edward White</astronaute>
+	  </mission>
+	  <mission nom="Gemini 5" type="habité" date="1965-08-21" fin="1965-08-29">
+		<but>Vol de longue durée</but>
+		<evenement>Panne d'une pile à combustible</evenement>
+		<astronaute role="commandant">Gordon Cooper</astronaute>
+		<astronaute>Pete Conrad</astronaute>
+	  </mission>
+	  <mission nom="Gemini 6" type="habité" date="1965-12-15" fin="1965-12-16">
+		<but>Rendez-vous orbital</but>
+		<astronaute>Walter Schirra</astronaute>
+		<astronaute>Thomas Stafford</astronaute>
+	  </mission>
+	  <mission nom="Gemini 7" type="habité" date="1965-12-04" fin="1965-12-18">
+		<but>Vol de longue durée</but>
+		<astronaute role="commandant">Franck Borman</astronaute>
+		<astronaute>Jim Lovell</astronaute>
+	  </mission>
+	  <mission nom="Gemini 8" type="habité" date="1966-03-16" fin="1966-03-17">
+		<but>Rendez-vous orbital</but>
+		<evenement>Rotation incontrôlable à cause d'une panne des propulseurs d'orientation</evenement>
+		<astronaute role="commandant">Neil Armstrong</astronaute>
+		<astronaute>Dave Scott</astronaute>
+	  </mission>
+	  <mission nom="Gemini 9" type="habité" date="1966-06-03" fin="1966-06-06">
+		<but>Rendez-vous orbital</but>
+		<but>Sortie dans l'espace</but>
+		<evenement>Impossibilité de s'amarrer à une cible</evenement>
+		<astronaute role="commandant">Thomas Stafford</astronaute>
+		<astronaute>Gene Cernan</astronaute>
+	  </mission>
+	  <mission nom="Gemini 10" type="habité" date="1966-07-18" fin="1966-07-21">
+		<but>Rendez-vous orbital</but>
+		<but>Sortie dans l'espace</but>
+		<astronaute role="commandant">John Young</astronaute>
+		<astronaute>Michael Collins</astronaute>
+	  </mission>
+	  <mission nom="Gemini 11" type="habité" date="1966-09-12" fin="1966-09-15">
+		<but>Rendez-vous orbital</but>
+		<astronaute role="commandant">Pete Conrad</astronaute>
+		<astronaute>Richard Gordon</astronaute>
+	  </mission>
+	  <mission nom="Gemini 12" type="habité" date="1966-11-11" fin="1966-11-15">
+		<but>Rendez-vous orbital</but>
+		<but>Sortie dans l'espace</but>
+		<astronaute role="commandant">Jim Lovell</astronaute>
+		<astronaute>Edwin Aldrin</astronaute>
+	  </mission>
+	</programme>
+	<programme nom="Apollo" debut="1961" fin="1975" missions="15">
+	  <objectif>Poser des astronautes sur la Lune et l’explorer</objectif>
+	  <mission nom="Apollo 1" type="habité" date="1967-01-27">
+		<but>Test du vaisseau</but>
+		<evenement>Incendie fatal à l'équipage</evenement>
+		<astronaute role="commandant">Virgil Grissom</astronaute>
+		<astronaute>Edward White</astronaute>
+		<astronaute>Roger Chaffee</astronaute>
+	  </mission>
+	  <mission nom="Apollo 4" type="automatique" date="1967-11-09">
+		<but>Tester la fusée Saturn V</but>
+	  </mission>
+	  <mission nom="Apollo 5" type="automatique" date="1968-01-22" fin="1968-02-12">
+		<but>Tester le module lunaire</but>
+	  </mission>
+	  <mission nom="Apollo 6" type="automatique" date="1968-04-04">
+		<evenement>Extinction prématurée d'un moteur</evenement>
+	  </mission>
+	  <mission nom="Apollo 7" type="habité" date="1968-10-11" fin="1968-10-22">
+		<but>Première mission Apollo habitée</but>
+		<evenement>Équipage enrhumé et fatigué</evenement>
+		<astronaute role="commandant">Walter Schirra</astronaute>
+		<astronaute role="pilote">Donn Eisele</astronaute>
+		<astronaute>Walter Cunningham</astronaute>
+	  </mission>
+	  <mission nom="Apollo 8" type="habité" date="1968-12-21" fin="1968-12-27">
+		<but>Premier vol derrière la Lune</but>
+		<astronaute role="commandant">Franck Borman</astronaute>
+		<astronaute role="pilote">Jim Lovell</astronaute>
+		<astronaute>William Anders</astronaute>
+	  </mission>
+	  <mission nom="Apollo 9" type="habité" date="1969-03-03" fin="1969-03-13">
+		<but>Essai du module lunaire</but>
+		<astronaute role="commandant">James McDivitt</astronaute>
+		<astronaute role="pilote">Dave Scott</astronaute>
+		<astronaute>Russell Schweickart</astronaute>
+	  </mission>
+	  <mission nom="Apollo 10" type="habité" date="1969-05-18" fin="1969-05-26">
+		<but>Mise en orbite et approche de la Lune</but>
+		<astronaute role="commandant">Thomas Stafford</astronaute>
+		<astronaute role="pilote">John Young</astronaute>
+		<astronaute>Gene Cernan</astronaute>
+	  </mission>
+	  <mission nom="Apollo 11" type="habité" date="1969-07-16" fin="1969-07-24">
+		<but>Premier alunissage</but>
+		<astronaute role="commandant">Neil Armstrong</astronaute>
+		<astronaute role="pilote">Edwin Aldrin</astronaute>
+		<astronaute>Michael Collins</astronaute>
+	  </mission>
+	  <mission nom="Apollo 12" type="habité" date="1969-11-14" fin="1969-11-24">
+		<but>Alunissage de précision</but>
+		<evenement>Fusée frappée par la foudre</evenement>
+		<astronaute role="commandant">Pete Conrad</astronaute>
+		<astronaute role="pilote">Richard Gordon</astronaute>
+		<astronaute>Alan Bean</astronaute>
+	  </mission>
+	  <mission nom="Apollo 13" type="habité" date="1970-04-11" fin="1970-04-17">
+		<evenement>Explosion d'un réservoir d'oxygène</evenement>
+		<astronaute role="commandant">Jim Lovell</astronaute>
+		<astronaute role="pilote">Ken Mattingly</astronaute>
+		<astronaute>Fred Haise</astronaute>
+	  </mission>
+	  <mission nom="Apollo 14" type="habité" date="1971-01-31" fin="1971-02-09">
+		<but>Exploration de la zone Fra Mauro</but>
+		<astronaute role="commandant">Alan Shepard</astronaute>
+		<astronaute role="pilote">Stuart Roosa</astronaute>
+		<astronaute>Edgard Mitchell</astronaute>
+	  </mission>
+	  <mission nom="Apollo 15" type="habité" date="1971-07-26" fin="1971-08-07">
+		<but>Exploration de la zone Hadley</but>
+		<but>Première sortie de la voiture lunaire</but>
+		<astronaute role="commandant">Dave Scott</astronaute>
+		<astronaute role="pilote">Alfred Worden</astronaute>
+		<astronaute>James Irvin</astronaute>
+	  </mission>
+	  <mission nom="Apollo 16" type="habité" date="1972-04-16" fin="1972-04-27">
+		<but>Exploration de la zone Descartes</but>
+		<astronaute role="commandant">John Young</astronaute>
+		<astronaute role="pilote">Ken Mattingly</astronaute>
+		<astronaute>Charles Duke</astronaute>
+	  </mission>
+	  <mission nom="Apollo 17" type="habité" date="1972-12-07" fin="1972-12-19">
+		<but>Exploration de la vallée de Taurus-Littrow</but>
+		<but>Dernière mission d'exploration lunaire</but>
+		<astronaute role="commandant">Gene Cernan</astronaute>
+		<astronaute role="pilote">Harrison Schmitt</astronaute>
+		<astronaute>Ronald Evans</astronaute>
+	  </mission>
+	</programme>
+  </nation>
+  <nation nom="URSS">
+	<programme nom="Vostok" debut="1961" fin="1963" missions="6">
+	  <objectif>Découvrir le vol spatial autour de la Terre</objectif>
+	  <mission nom="Vostok 1" type="habité" date="1961-04-12">
+		<but>Premier vol spatial</but>
+		<astronaute role="commandant">Youri Gagarine</astronaute>
+	  </mission>
+	  <mission nom="Vostok 2" type="habité" date="1961-08-06">
+		<but>Premier vol de longue durée</but>
+		<astronaute role="commandant">Guerman Titov</astronaute>
+	  </mission>
+	  <mission nom="Vostok 3" type="habité" date="1962-08-11" fin="1962-08-14">
+		<but>Premier vol simultané</but>
+		<astronaute role="commandant">Andrian Nikolaïev</astronaute>
+	  </mission>
+	  <mission nom="Vostok 4" type="habité" date="1962-08-12" fin="1962-08-14">
+		<but>Premier vol simultané</but>
+		<evenement>Refroidissement de la cabine</evenement>
+		<astronaute role="commandant">Pavel Popovitch</astronaute>
+	  </mission>
+	  <mission nom="Vostok 5" type="habité" date="1963-06-14" fin="1963-06-18">
+		<but>Vol de longue durée</but>
+		<astronaute role="commandant">Valeri Bykovski</astronaute>
+	  </mission>
+	  <mission nom="Vostok 6" type="habité" date="1963-06-16" fin="1963-06-18">
+		<but>Première femme dans l'espace</but>
+		<astronaute role="commandant">Valentina Terechkova</astronaute>
+	  </mission>
+	</programme>
+	<programme nom="Voskhod" debut="1964" fin="1965" missions="2">
+	  <objectif>Maîtriser le vol spatial en orbite autour de la Terre et mettre au point les manœuvres de rendez-vous</objectif>
+	  <mission nom="Voskhod 1" type="habité" date="1964-10-12" fin="1964-10-13">
+		<but>Premier vol à plusieurs astronautes</but>
+		<astronaute role="commandant">Vladimir Komarov</astronaute>
+		<astronaute>Konstantin Feoktistov</astronaute>
+		<astronaute>Boris Yegorov</astronaute>
+	  </mission>
+	  <mission nom="Voskhod 2" type="habité" date="1965-03-18" fin="1965-03-19">
+		<but>Première marche dans l'espace</but>
+		<astronaute role="commandant">Pavel Beliaïev</astronaute>
+		<astronaute>Alexei Leonov</astronaute>
+	  </mission>
+	</programme>
+	<programme nom="Soyouz" debut="1962" fin="1981" missions="38">
+	  <objectif>Poser des astronautes sur la Lune et l’explorer</objectif>
+	  <!-- https://fr.wikipedia.org/wiki/Programme_Soyouz -->
+	  <mission nom="Soyouz 1" type="habité" date="1967-04-23">
+		<but>Première mission du programme</but>
+		<evenement>Écrasement de la capsule au retour sur Terre</evenement>
+		<astronaute role="commandant">Vladimir Komarov</astronaute>
+	  </mission>
+	  <mission nom="Soyouz 2" type="automatique" date="1968-10-25" fin="1968-10-28"/>
+	  <mission nom="Soyouz 3" type="habité" date="1968-10-26">
+		<but>Rendez-vous orbital</but>
+		<but>Amarrage avec Soyouz 2</but>
+		<evenement>Amarrage manqué</evenement>
+		<astronaute role="commandant">Gueorgui Beregovoi</astronaute>
+	  </mission>
+	  <mission nom="Soyouz 4" type="habité" date="1969-01-14">
+		<but>Rendez-vous orbital</but>
+		<but>Amarrage avec Soyouz 5</but>
+		<astronaute role="commandant">Vladimir Shatalov</astronaute>
+		<astronaute>Aleksei Yeliseyev</astronaute>
+		<astronaute>Yevgeny Khrunov</astronaute>
+	  </mission>
+	  <mission nom="Soyouz 5" type="habité" date="1969-01-15">
+		<but>Rendez-vous orbital</but>
+		<but>Amarrage avec Soyouz 5</but>
+		<astronaute role="commandant">Boris Volynov</astronaute>
+		<astronaute>Aleksei Yeliseyev</astronaute>
+		<astronaute>Yevgeny Khrunov</astronaute>
+	  </mission>
+	  <mission nom="Soyouz 6" type="habité" date="1969-10-11">
+		<astronaute role="commandant">Georgi Shonin</astronaute>
+		<astronaute>Valery Kubasov</astronaute>
+	  </mission>
+	</programme>
+  </nation>
+  <nation nom="France">
+  </nation>
+</programmes>
