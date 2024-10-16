@@ -1,3 +1,12 @@
 1)descendant::*/nation[child::programme]/attribute::nom
 2)descendant::*/astronaute[./@role='commandant']/child::text()
 3)descendant::*/mission[not(@type='habité')]/@date
+4)descendant::mission[@date='1965-01-19' and (@type='habité' or not(@type))]
+5)descendant::mission[@nom='Apollo 11']/astronaute[@role='commandant']/child::text()
+6)descendant::astronaute[@role='commandant' and child::text()='Neil Armstrong']/following-sibling::astronaute
+7)descendant::mission[starts-with(@nom,'Gemini') and (number(substring(@date,8))-number(substring(@fin,8)))>4]
+8)descendant::mission[not(child::astronaute)]
+9)descendant::nation[@nom='USA']/descendant::mission[last()]
+10)descendant::mission[@nom='Voskhod 2']/preceding-sibling::mission
+11)descendant::mission[count(child::astronaute)=1]
+12)descendant::mission[number(substring(@date,1,4))>=1970]
