@@ -9,4 +9,4 @@
 9)descendant::nation[@nom='USA']/descendant::mission[last()]
 10)descendant::mission[@nom='Voskhod 2']/preceding-sibling::mission
 11)descendant::mission[count(child::astronaute)=1]
-12)descendant::mission[number(substring(@date,1,4))>=1970]
+12)descendant::mission[number(substring(@date,1,4))>=1970].
