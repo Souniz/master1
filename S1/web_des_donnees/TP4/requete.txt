@@ -1,0 +1,58 @@
+#Réécrire la requête précédente en faisant usage du namespace res.
+PREFIX res :  <http://dbpedia.org/resource/>
+SELECT ?s ?p
+WHERE {
+   ?s ?p res: Marion_Cotillard
+}
+
+#Quelle requête permet de lister les films dans lesquels Marion Cotillard ou bien Guillaume
+Canet ont joué l’un ou l’autre ?
+
+PREFIX res :  <http://dbpedia.org/resource/>
+SELECT ?s ?p
+WHERE {
+   {?s ?p res: Marion_Cotillard .}
+   union
+   {?s ?p res: Guillaume_Canet .}
+}
+#Quelle requête permet de lister les films dans lesquels Marion Cotillard ou bien Guillaume
+Canet ont joué l’un ou l’autre ?
+PREFIX res: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX pop: <http://dbpedia.org/property/starring>
+
+SELECT ?s 
+WHERE {
+   {?s onto:starring res:Marion_Cotillard}
+   UNION
+   {?s onto:starring res:Guillaume_Canet}
+   UNION
+   {?s pop:starring res:Marion_Cotillard}
+   UNION
+   {?s pop:starring res:Guillaume_Canet}
+}
+
+#Quelle requête permet de lister les films dans lesquels Marion Cotillard et Guillaume Canet
+ont tous les deux joués ?
+
+SELECT ?s
+WHERE {
+   {?s onto:starring res:Marion_Cotillard .
+   ?s onto:starring res:Guillaume_Canet}
+   UNION
+   {?s pop:starring res:Marion_Cotillard .
+   ?s pop:starring res:Guillaume_Canet}
+
+}
+
+#Modifier la requête précédente pour obtenir les titre français de ces films.
+PREFIX res: <http://dbpedia.org/resource/>
+PREFIX onto: <http://dbpedia.org/ontology/>
+PREFIX pop: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#label>
+SELECT ?s ?title
+WHERE {
+   ?s pop:starring res:Marion_Cotillard , res:Guillaume_Canet .
+   ?s rdfs:label ?title .
+   FILTER(lang(?title) = "fr")
+}

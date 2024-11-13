@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dbo="http://dbpedia.org/ontology/"
+  xmlns:dbp="http://dbpedia.org/property/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:schema="http://schema.org/"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:gold="http://purl.org/linguistics/gold/" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Guillaume_Canet">
+    <foaf:homepage rdf:resource="http://guillaumecanet.net/" />
+    <dbo:birthPlace rdf:resource="http://dbpedia.org/resource/Boulogne-Billancourt" />
+    <dbp:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1973-04-10</dbp:birthDate>
+    <dbp:wordnet_type rdf:resource="http://www.w3.org/2006/03/wn/wn20/instances/synset-actor-noun-1" />
+    <dbp:children rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dbp:children>
+    <dbp:occupation xml:lang="en">Actor, film director, screenwriter, film producer</dbp:occupation>
+    <dbo:occupation rdf:resource="http://dbpedia.org/resource/Screenwriter" />
+    <dbp:partner rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+    <dbp:spouse rdf:resource="http://dbpedia.org/resource/Diane_Kruger" />
+    <dbp:spouse rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</dbp:spouse>
+    <dbp:spouse rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</dbp:spouse>
+    <dbp:website rdf:resource="http://guillaumecanet.net/" />
+    <dbp:yearsactive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</dbp:yearsactive>
+    <gold:hypernym rdf:resource="http://dbpedia.org/resource/Actor" />
+    <dbo:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1973</dbo:birthYear>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tell_No_One">
+    <dbp:director rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbo:writer rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rivals_(2008_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Une_vie_meilleure">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  <!-- keep -->
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Little_White_Lies_(2010_film)">
+    <dbp:director rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbo:writer rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Day_the_Ponies_Come_Back">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+  
+  <!-- keep -->
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Flight_(2009_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  <!-- keep -->
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Love_Me_If_You_Dare_(film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Next_Time_I&#39;ll_Aim_for_the_Heart">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  <!-- keep -->
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rock&#39;n_Roll_(2017_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbp:director rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbp:writer rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Non-Fiction_(film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+  
+  <!-- keep -->
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blood_Ties_(2013_film)">
+    <dbp:director rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbo:writer rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/In_the_Name_of_My_Daughter">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+  </rdf:Description>
+
+</rdf:RDF>

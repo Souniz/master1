@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dbp="http://dbpedia.org/property/"
+  xmlns:dbo="http://dbpedia.org/ontology/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:schema="http://schema.org/"
+  xmlns:prov="http://www.w3.org/ns/prov#"
+  xmlns:gold="http://purl.org/linguistics/gold/" >
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Marion_Cotillard">
+    <dbp:name xml:lang="en">Marion Cotillard</dbp:name>
+    <dbp:otherNames xml:lang="en">Simone</dbp:otherNames>
+    <dbo:birthPlace rdf:resource="http://dbpedia.org/resource/France" />
+    <dbo:birthPlace rdf:resource="http://dbpedia.org/resource/Paris" />
+    <dbp:birthPlace xml:lang="en">Paris, France</dbp:birthPlace>
+    <dbp:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1975-09-30</dbp:birthDate>
+    <dbo:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1975</dbo:birthYear>
+    <dbp:awards rdf:resource="http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Marion_Cotillard" />
+    <dbp:title rdf:resource="http://dbpedia.org/resource/List_of_awards_and_nominations_received_by_Marion_Cotillard" />
+    <dbp:children rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</dbp:children>
+    <dbp:occupation xml:lang="en">environmentalist</dbp:occupation>
+    <dbp:occupation xml:lang="en">Actress</dbp:occupation>
+    <dbp:occupation xml:lang="en">singer</dbp:occupation>
+    <dbp:partner rdf:resource="http://dbpedia.org/resource/Guillaume_Canet" />
+    <dbp:yearsActive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</dbp:yearsActive>
+    <gold:hypernym rdf:resource="http://dbpedia.org/resource/Actress" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/13th_Lumières_Awards">
+    <dbp:bestActress rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Little_White_Lies_(2010_film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/OceanWorld_3D">
+    <dbp:narrator rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Last_Flight_(2009_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/April_and_the_Extraordinary_World">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Love_Me_If_You_Dare_(film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lady_Macbeth">
+    <dbp:portrayer rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Dolittle_(film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Rock&#39;n_Roll_(2017_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Angel_Face_(2018_film)">
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/La_Belle_Verte">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Blood_Ties_(2013_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Mary_(2005_film)">
+    <dbp:starring rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Take_It_All_(song)">
+    <dbp:artist rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://dbpedia.org/resource/2007_Czech_Lion_Awards">
+    <dbp:bestActress rdf:resource="http://dbpedia.org/resource/Marion_Cotillard" />
+  </rdf:Description>
+  
+  
+</rdf:RDF>
