@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sda.xslt"?>
+<lord-of-the-rings name="Le Seigneur des Anneaux">
+	<films>
+		<film>
+			<title label="titre">Le Seigneur des Anneaux : La Communauté de l'anneau</title>
+			<director label="Réalisateur">Peter Jackson</director>
+			<release-date label="Date de sortie">2001-12-19</release-date>
+			<box-office label="Box-Office" unit="USD">897700000</box-office>
+			<budget label="Budget" unit="USD">93000000</budget>
+			<roles label="Rôles principaux">
+				<role character="Frodon Sacquet" actor="1" />
+				<role character="Aragorn" actor="5" />
+				<role character="Galadriel" actor="7" />
+				<role character="Gandalf" actor="4" />
+				<role character="Arwen" actor="8" />
+				<role character="Legolas" actor="9" />
+			</roles>
+			<img-source value="le-seigneur-des-anneaux-1.jpg"/>
+		</film>
+		<film>
+			<title label="titre">Le Seigneur des Anneaux : Les Deux Tours</title>
+			<director label="Réalisateur">Peter Jackson</director>
+			<release-date label="Date de sortie">2002-12-10</release-date>
+			<box-office label="Box-Office" unit="USD">974500000</box-office>
+			<budget label="Budget" unit="USD">94000000</budget>
+			<roles label="Rôles principaux">
+				<role character="Frodon Sacquet" actor="1" />
+				<role character="Aragorn" actor="5" />
+				<role character="Gollum" actor="6" />
+				<role character="Éomer" actor="2" />
+				<role character="Éowyn" actor="10" />
+				<role character="Arwen" actor="8" />
+			</roles>
+			<img-source value="le-seigneur-des-anneaux-2.jpg"/>
+		</film>
+		<film>
+			<title label="titre">Le Seigneur des Anneaux : Le retour du roi</title>
+			<director label="Réalisateur">Peter Jackson</director>
+			<release-date label="Date de sortie">2003-12-17</release-date>
+			<box-office label="Box-Office" unit="USD">1146000000</box-office>
+			<budget label="Budget" unit="USD">94000000</budget>
+			<roles label="Rôles principaux">
+				<role character="Frodon Sacquet" actor="1" />
+				<role character="Éomer" actor="2" />
+				<role character="Samsagace Gamegie" actor="3" />
+				<role character="Gandalf" actor="4" />
+				<role character="Aragorn" actor="5" />
+				<role character="Gollum" actor="6" />
+			</roles>
+			<img-source value="le-seigneur-des-anneaux-3.jpg"/>
+		</film>
+		
+	</films>
+	<actors>
+		<actor id="1">
+			<name>Elijah Wood</name>
+			<brith-date>1981-01-28</brith-date>
+			<nationality>États-Unis</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Elijah_Wood</wiki-page>
+		</actor>
+		<actor id="2">
+			<name>Karl Urban</name>
+			<brith-date>1972-06-07</brith-date>
+			<nationality>Nouvelle-Zelande</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Karl_Urban</wiki-page>
+		</actor>
+		<actor id="3">
+			<name>Sean Astin</name>
+			<brith-date>25 février 1971</brith-date>
+			<nationality>États-Unis</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Sean_Astin</wiki-page>
+		</actor>
+		<actor id="4">
+			<name>Ian McKellen</name>
+			<brith-date>1939-05-25</brith-date>
+			<nationality>Royaume-Uni</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Ian_McKellen</wiki-page>
+		</actor>
+		<actor id="5">
+			<name>Viggo Mortensen</name>
+			<brith-date>1958-10-20</brith-date>
+			<nationality>États-Unis</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Viggo_Mortensen</wiki-page>
+		</actor>
+		<actor id="6">
+			<name>Andy Serkis</name>
+			<brith-date>1964-04-20</brith-date>
+			<nationality>Royaume-Uni</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Andy_Serkis</wiki-page>
+		</actor>
+		<actor id="7">
+			<name>Cate Blanchett</name>
+			<brith-date>1969-05-14</brith-date>
+			<nationality>Australie</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Cate_Blanchett</wiki-page>
+		</actor>
+		<actor id="8">
+			<name>Liv Tyler</name>
+			<brith-date>1977-07-01</brith-date>
+			<nationality>États-Unis</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Liv_Tyler</wiki-page>
+		</actor>
+		<actor id="9">
+			<name>Orlando Bloom</name>
+			<brith-date>1977-01-13</brith-date>
+			<nationality>Royaume-Uni</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Orlando_Bloom</wiki-page>
+		</actor>
+		<actor id="10">
+			<name>Miranda Otto</name>
+			<brith-date>1967-12-16</brith-date>
+			<nationality>Australie</nationality>
+			<wiki-page>https://fr.wikipedia.org/wiki/Miranda_Otto</wiki-page>
+		</actor>
+	</actors>
+</lord-of-the-rings>

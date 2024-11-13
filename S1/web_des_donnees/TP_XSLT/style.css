@@ -1,0 +1,33 @@
+.film-div {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    width: 1000px;
+}
+
+.film-title-div {
+    width: 100%;
+    text-align: left;
+    color: rgb(9,9,121);
+    border-bottom: 3px solid rgb(9,9,121);
+    margin-bottom: 20px;
+}
+
+.film-title-div h2
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.film-content-div
+{
+    display: flex;
+}
+
+.film-left-div, .film-right-div
+{
+    margin-right: 5px;
+}
+
+
