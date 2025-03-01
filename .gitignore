@@ -6,3 +6,6 @@
 *.db
 *checkpoint.ipynb
 *.zip
+*.txt
+*venv
+*data
